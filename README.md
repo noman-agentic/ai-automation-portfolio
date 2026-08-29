@@ -7,7 +7,7 @@ built using no-code tools like Zapier and n8n.
 
 ---
 
-## Project 1: Automated Form Confirmation Email
+## Project 1: Automated Customer Confirmation Email
 
 **Problem:**
 When a potential customer fills out a contact/inquiry form, they often 
@@ -18,15 +18,15 @@ replying to every submission wastes time.
 **Solution:**
 Built an automated workflow that triggers instantly when someone submits 
 a Google Form. The system automatically sends a personalized thank-you 
-email back to the respondent, confirming their details were received and 
+email back to the respondent, confirming their message was received and 
 setting expectations for a follow-up.
 
 **How it works:**
 1. Trigger: New response submitted on Google Form
 2. Action: Zapier extracts the submitted data (Name, Email, Message)
 3. Action: Zapier sends a personalized auto-reply email via Gmail, 
-   dynamically inserting the respondent's name and message into the 
-   email body
+   dynamically inserting the respondent's name and their original 
+   message into the email body
 
 **Tools used:** Zapier, Google Forms, Gmail
 
@@ -55,13 +55,19 @@ the form.
 1. Trigger: New response submitted on Google Form
 2. Action: Zapier extracts submission details (Name, Email, Phone, City, 
    Submission Time)
-3. Action: Zapier sends a formatted internal notification email to the 
-   team with all details included
+3. Action: Zapier sends a formatted internal notification email to a 
+   fixed team address with all details included
 
 **Tools used:** Zapier, Google Forms, Gmail
 
 **Business value:** Ensures the team is notified in real time, reducing 
 response delay and preventing missed leads.
+
+**Debugging note:** Initially, the "To" field was mistakenly set to the 
+respondent's dynamic email instead of a fixed internal address — meaning 
+the notification was going back to the customer instead of the team. 
+Fixed by replacing the dynamic variable with a static team email address, 
+confirmed working via test submission.
 
 **Form link (demo):** [View Form](https://docs.google.com/forms/d/e/1FAIpQLSeH-YnbfF9dxtzqKCsvY2XvTP7sNg-n6B7nfZqFEh_iunRehA/viewform)
 
