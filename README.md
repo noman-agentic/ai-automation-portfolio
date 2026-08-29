@@ -79,4 +79,4 @@ on building practical, income-generating automation solutions for
 businesses. This repository will grow as I complete more projects 
 throughout the course.
 
-**Contact:** Contact: Reach out via GitHub Issues
+**Contact:** Reach out via GitHub Issues
