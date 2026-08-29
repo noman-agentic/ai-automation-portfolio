@@ -79,4 +79,4 @@ on building practical, income-generating automation solutions for
 businesses. This repository will grow as I complete more projects 
 throughout the course.
 
-**Contact:** noman.agentic@gmail.com
+**Contact:** Contact: Reach out via GitHub Issues
