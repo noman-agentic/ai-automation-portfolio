@@ -16,7 +16,7 @@ Transitioning into AI Automation & applied AI engineering. Currently
 focused on building practical, income-generating automation for small 
 businesses — email workflows, LLM integrations, and AI agents.
 
-📫 **Contact:** [GitHub Issues](https://github.com/noman-agentic/ai-automation-portfolio/issues) · noman.agentic@gmail.com
+📫 **Contact:** [GitHub Issues](https://github.com/noman-agentic/ai-automation-portfolio/issues)
 
 ---
 
