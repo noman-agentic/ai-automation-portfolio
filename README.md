@@ -1,82 +1,58 @@
-# AI Automation Portfolio
+# 🤖 AI Automation Portfolio
 
-This repository documents my hands-on learning journey in AI automation, 
-built while completing the "AI Agent Mastery" course. Each project below 
-represents a real automation workflow solving a practical business problem, 
-built using no-code tools like Zapier and n8n.
+Hands-on projects built while completing the **AI Agent Mastery** course — 
+practical automation workflows solving real business problems using 
+no-code and AI tools.
 
----
-
-## Project 1: Automated Customer Confirmation Email
-
-**Problem:**
-When a potential customer fills out a contact/inquiry form, they often 
-receive no immediate confirmation that their submission was received. 
-This creates uncertainty and a poor first impression, and manually 
-replying to every submission wastes time.
-
-**Solution:**
-Built an automated workflow that triggers instantly when someone submits 
-a Google Form. The system automatically sends a personalized thank-you 
-email back to the respondent, confirming their message was received and 
-setting expectations for a follow-up.
-
-**How it works:**
-1. Trigger: New response submitted on Google Form
-2. Action: Zapier extracts the submitted data (Name, Email, Message)
-3. Action: Zapier sends a personalized auto-reply email via Gmail, 
-   dynamically inserting the respondent's name and their original 
-   message into the email body
-
-**Tools used:** Zapier, Google Forms, Gmail
-
-**Business value:** Improves customer experience by providing instant 
-acknowledgment, reduces manual follow-up work, and ensures no inquiry 
-goes unanswered.
-
-**Form link (demo):** [View Form](https://docs.google.com/forms/d/e/1FAIpQLSfYTpq9EOtSCJlDZurBO3jTgv1YHBN0FLp0z78YgywAg-34tQ/viewform)
+![Status](https://img.shields.io/badge/status-in--progress-yellow)
+![Tools](https://img.shields.io/badge/tools-Zapier%20%7C%20n8n%20%7C%20OpenAI-blue)
+![Last Commit](https://img.shields.io/github/last-commit/noman-agentic/ai-automation-portfolio)
 
 ---
 
-## Project 2: Internal Team Notification on New Form Submission
+## 👋 About Me
 
-**Problem:**
-When a business receives inquiries through a form, the team often finds 
-out late (only when someone manually checks the form responses), delaying 
-response time and risking lost leads.
+Transitioning into AI Automation & applied AI engineering. Currently 
+focused on building practical, income-generating automation for small 
+businesses — email workflows, LLM integrations, and AI agents.
 
-**Solution:**
-Built an automated workflow that instantly notifies the internal team via 
-email whenever a new form submission comes in, including all relevant 
-submission details, so the team can act quickly without manually checking 
-the form.
-
-**How it works:**
-1. Trigger: New response submitted on Google Form
-2. Action: Zapier extracts submission details (Name, Email, Phone, City, 
-   Submission Time)
-3. Action: Zapier sends a formatted internal notification email to a 
-   fixed team address with all details included
-
-**Tools used:** Zapier, Google Forms, Gmail
-
-**Business value:** Ensures the team is notified in real time, reducing 
-response delay and preventing missed leads.
-
-**Debugging note:** Initially, the "To" field was mistakenly set to the 
-respondent's dynamic email instead of a fixed internal address — meaning 
-the notification was going back to the customer instead of the team. 
-Fixed by replacing the dynamic variable with a static team email address, 
-confirmed working via test submission.
-
-**Form link (demo):** [View Form](https://docs.google.com/forms/d/e/1FAIpQLSeH-YnbfF9dxtzqKCsvY2XvTP7sNg-n6B7nfZqFEh_iunRehA/viewform)
+📫 **Contact:** [GitHub Issues](https://github.com/noman-agentic/ai-automation-portfolio/issues) · noman.agentic@gmail.com
 
 ---
 
-## About Me
-Learning AI automation (n8n, Zapier, LangChain, Langflow) with a focus 
-on building practical, income-generating automation solutions for 
-businesses. This repository will grow as I complete more projects 
-throughout the course.
+## 🚀 Projects
 
-**Contact:** Reach out via GitHub Issues
+| # | Project | Tools | Description |
+|---|---------|-------|-------------|
+| 1 | [Email Auto-Reply Agent](./project-1-email-auto-reply) | Zapier, OpenAI API | AI-powered auto-reply system for incoming customer emails |
+
+> More projects (Social Media Content Generator, Support Q&A Bot, 
+> Multi-Agent Systems, RAG Agents...) will be added as the course 
+> progresses.
+
+---
+
+## 🧩 Early Practice
+
+Small foundational workflows built while learning the basics of 
+trigger-action automation, before starting numbered projects.
+
+➡️ [View early practice work](./early-practice)
+
+---
+
+## 🛠️ Tools & Skills
+
+**Automation:** Zapier  
+**AI/LLM:** OpenAI API · Zapier AI Copilot · Prompt Engineering
+
+**Coming next (in course order):**
+n8n → RAG (Retrieval-Augmented Generation) → Langflow
+
+---
+
+## 📌 About This Repo
+
+This repository documents my learning journey in AI automation. Every 
+project includes a problem statement, solution, and tools used — built 
+as proof-of-work while completing the *AI Agent Mastery* course.
