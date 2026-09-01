@@ -1,11 +1,11 @@
 # 🤖 AI Automation Portfolio
 
-Hands-on projects built while completing the **AI Agent Mastery** course — 
-practical automation workflows solving real business problems using 
-no-code and AI tools.
+Hands-on projects built while completing **"AI Agent Mastery: Build, 
+Automate & Scale"** — practical automation workflows solving real 
+business problems using no-code and AI tools.
 
 ![Status](https://img.shields.io/badge/status-in--progress-yellow)
-![Tools](https://img.shields.io/badge/tools-Zapier%20%7C%20n8n%20%7C%20OpenAI-blue)
+![Tools](https://img.shields.io/badge/tools-Zapier%20%7C%20OpenAI-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/noman-agentic/ai-automation-portfolio)
 
 ---
@@ -13,8 +13,11 @@ no-code and AI tools.
 ## 👋 About Me
 
 Transitioning into AI Automation & applied AI engineering. Currently 
-focused on building practical, income-generating automation for small 
-businesses — email workflows, LLM integrations, and AI agents.
+building hands-on projects while completing the **AI Agent Mastery** 
+course — a comprehensive course covering no-code workflow automation, 
+AI agent development, RAG (Retrieval-Augmented Generation), multi-agent 
+systems, and SaaS/business deployment, with a focus on freelancing-ready 
+automation skills.
 
 📫 **Contact:** [GitHub Issues](https://github.com/noman-agentic/ai-automation-portfolio/issues)
 
