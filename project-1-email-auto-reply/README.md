@@ -36,3 +36,5 @@ Action: Send Reply Email
 
 ## Status
 ✅ Completed as part of Module 6 — AI Agent Mastery course (Hablu Programmer)
+## Screenshot
+![Zap Workflow](Email Automation Agent.png)
