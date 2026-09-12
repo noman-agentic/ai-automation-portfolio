@@ -13,6 +13,7 @@ Freelancers and small businesses often lose time (and leads) manually entering c
 
 ## Screenshots
 
+
 **The intake form:**
 ![Form](screenshots/form.PNG)
 
