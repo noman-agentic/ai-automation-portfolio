@@ -1,0 +1,165 @@
+{
+  "name": "Client Intake Practice",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Client Intake Form",
+        "formDescription": "Tell us about your project",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Full Name",
+              "placeholder": "e.g. John Smith",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Email",
+              "fieldType": "email",
+              "placeholder": "e.g. john@example.com",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Project Description",
+              "fieldType": "textarea",
+              "placeholder": "Briefly describe what you need help with",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        0
+      ],
+      "id": "3e523e1a-fd22-434d-9556-3d5e855a33fa",
+      "name": "Client Intake Form",
+      "webhookId": "154d5259-abb9-4b5c-8335-abf27ff813dc"
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appEoVVgHm7x9SR8L",
+          "mode": "list",
+          "cachedResultName": "Client Intake",
+          "cachedResultUrl": "https://airtable.com/appEoVVgHm7x9SR8L"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tblaox5hvrCK2aCVr",
+          "mode": "list",
+          "cachedResultName": "Clients",
+          "cachedResultUrl": "https://airtable.com/appEoVVgHm7x9SR8L/tblaox5hvrCK2aCVr"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Client Name": "={{ $json['Full Name'] }}",
+            "Email": "={{ $json.Email }}",
+            "Project Details": "={{ $json['Project Description'] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Client Name",
+              "displayName": "Client Name",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Project Details",
+              "displayName": "Project Details",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        224,
+        0
+      ],
+      "id": "a1d1668c-86f9-4683-86ed-9eece9adccc7",
+      "name": "Save to Airtable",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "0CuIjghsWR6Jkppn",
+          "name": "Airtable Personal Access Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "Client Intake Automation\n\nPurpose: Collects client info via web form and \nsaves it directly to Airtable — no manual data entry.\n\nFlow: Form Submission → Airtable (Create Record)\n\n",
+        "height": 176,
+        "width": 416
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        0,
+        -256
+      ],
+      "id": "89ae6cd5-46ec-4457-b3bf-1bd4fdebd057",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Client Intake Form": {
+      "main": [
+        [
+          {
+            "node": "Save to Airtable",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "ead3fe7c-2432-4e6c-b628-bc9de1c92b4a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "ab95a641c1b7099ef407af1cf01df77e8f73a8620f3dfa9286ddaad6ae2c066b"
+  },
+  "nodeGroups": [],
+  "id": "vYfKAECx2tgpbdH6",
+  "tags": []
+}
