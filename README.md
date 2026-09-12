@@ -1,23 +1,16 @@
 # 🤖 AI Automation Portfolio
 
-Hands-on projects built while completing **"AI Agent Mastery: Build, 
-Automate & Scale"** — practical automation workflows solving real 
-business problems using no-code and AI tools.
+Hands-on projects built while completing **"AI Agent Mastery: Build, Automate & Scale"** — practical automation workflows solving real business problems using no-code and AI tools.
 
 ![Status](https://img.shields.io/badge/status-in--progress-yellow)
-![Tools](https://img.shields.io/badge/tools-Zapier%20%7C%20OpenAI-blue)
+![Tools](https://img.shields.io/badge/tools-Zapier%20%7C%20n8n%20%7C%20OpenAI-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/noman-agentic/ai-automation-portfolio)
 
 ---
 
 ## 👋 About Me
 
-Transitioning into AI Automation & applied AI engineering. Currently 
-building hands-on projects while completing the **AI Agent Mastery** 
-course — a comprehensive course covering no-code workflow automation, 
-AI agent development, RAG (Retrieval-Augmented Generation), multi-agent 
-systems, and SaaS/business deployment, with a focus on freelancing-ready 
-automation skills.
+Transitioning into AI Automation & applied AI engineering. Currently building hands-on projects while completing the **AI Agent Mastery** course — a comprehensive course covering no-code workflow automation, AI agent development, RAG (Retrieval-Augmented Generation), multi-agent systems, and SaaS/business deployment, with a focus on freelancing-ready automation skills.
 
 📫 **Contact:** [GitHub Issues](https://github.com/noman-agentic/ai-automation-portfolio/issues)
 
@@ -35,27 +28,24 @@ automation skills.
 
 ---
 
-## 🧩 Early Practice
+## 🧩 Practice Projects
 
-Small foundational workflows built while learning the basics of 
-trigger-action automation, before starting numbered projects.
+Small hands-on workflows built while learning new tools — each with its own README, workflow export, and screenshots.
 
-➡️ [View early practice work](./early-practice)
+➡️ [View practice projects](./practice-projects)
 
 ---
 
 ## 🛠️ Tools & Skills
 
-**Automation:** Zapier  
+**Automation:** Zapier · n8n (self-hosted) — form triggers, Airtable integration  
 **AI/LLM:** OpenAI API · Zapier AI Copilot · Prompt Engineering
 
 **Coming next (in course order):**
-n8n → RAG (Retrieval-Augmented Generation) → Langflow
+RAG (Retrieval-Augmented Generation) → Langflow
 
 ---
 
 ## 📌 About This Repo
 
-This repository documents my learning journey in AI automation. Every 
-project includes a problem statement, solution, and tools used — built 
-as proof-of-work while completing the *AI Agent Mastery* course.
+This repository documents my learning journey in AI automation. Every project includes a problem statement, solution, and tools used — built as proof-of-work while completing the *AI Agent Mastery* course.
