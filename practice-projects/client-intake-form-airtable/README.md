@@ -14,7 +14,7 @@ Freelancers and small businesses often lose time (and leads) manually entering c
 ## Screenshots
 
 
-**The intake form:**
+**The intake form:** 
 ![Form](screenshots/form.PNG)
 
 **The n8n workflow:**
